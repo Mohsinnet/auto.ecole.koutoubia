@@ -70,7 +70,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?q=80&w=600" alt="تعلم السياقة" class="img-fluid rounded shadow">
+                    <img src="https://www.instagram.com/p/C9Alvb6sdC6/" alt="تعلم السياقة" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
