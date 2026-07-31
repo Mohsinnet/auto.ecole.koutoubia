@@ -48,7 +48,7 @@
     <section class="hero-section text-center">
         <div class="container">
             <h1 class="display-4 fw-bold mb-3">مرحباً بكم في مؤسسة الكتبية لتعليم السياقة</h1>
-            <p class="lead mb-4">طريقك والأمان يبدأ من هنا. نرافقك خطوة بخطوة للحصول على رخصة السياقة بكل ثقة واحترافية.</p>
+            <p class="lead mb-4">طريقك الأمان يبدأ من هنا. نرافقك خطوة بخطوة للحصول على رخصة السياقة بكل ثقة واحترافية.</p>
             <a href="tel:0612160626" class="btn btn-warning btn-lg me-2 text-dark fw-bold"><i class="fa-solid fa-phone"></i> 0612160626</a>
             <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريطة</a>
              <a href="https://www.youtube.com/@utokoutoubia" target="_blank" class="btn btn-outline-light btn-lg">
