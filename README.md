@@ -107,7 +107,7 @@
                     <div class="card h-100 shadow-sm border-0">
                         <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=500" class="card-img-top" alt="الوزن الثقيل">
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">صنف (C / D) - الوزن الثقيل الحافلات</h5>
+                            <h5 class="card-title fw-bold">صنف (C / D / EC) - الوزن الثقيل الحافلات</h5>
                             <p class="card-text text-muted">تأهيل احترافي لسياقة شاحنات النقل والحافلات تحت إشراف مدربين مؤهلين بكفاءة عالية.</p>
                         </div>
                     </div>
