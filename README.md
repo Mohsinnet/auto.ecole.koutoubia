@@ -67,6 +67,7 @@
                         <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الاستقلالية وحرية التنقل:</strong> توفير الوقت والجهد وتجنب انتظار وسائل النقل العمومية.</li>
                         <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>فرص عمل أفضل:</strong> تفتح لك رخصة السياقة أبواباً واسعة في سوق الشغل بمختلف القطاعات.</li>
                         <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الأمان والسلامة:</strong> تعلم قواعد المرور والسياقة السليمة يحميك ويحمي عائلتك ومستعملي الطريق.</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>هذفنا:</strong> هدفنا هو أن نجعل من كل متعلم سائقًا مسؤولًا.</li>
                     </ul>
                 </div>
                 <div class="col-md-6 text-center">
