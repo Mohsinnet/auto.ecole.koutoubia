@@ -50,7 +50,7 @@
             <h1 class="display-4 fw-bold mb-3">مرحباً بكم في مؤسسة الكتبية لتعليم السياقة</h1>
             <p class="lead mb-4">طريقك والأمان يبدأ من هنا. نرافقك خطوة بخطوة للحصول على رخصة السياقة بكل ثقة واحترافية.</p>
             <a href="tel:0612160626" class="btn btn-warning btn-lg me-2 text-dark fw-bold"><i class="fa-solid fa-phone"></i> 0612160626</a>
-            <a href="https://share.google/BVwxNFQhqAvQPub0f" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريطة</a>
+            <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريطة</a>
         </div>
     </section>
 
@@ -141,7 +141,7 @@
                     <div class="p-3 bg-secondary rounded">
                         <i class="fa-solid fa-map-location-dot fs-2 text-info mb-2"></i>
                         <h5>العنوان</h5>
-                        <a href="https://share.google/BVwxNFQhqAvQPub0f" target="_blank" class="text-white text-decoration-none fs-5">اضغط لرؤية الموقع على الخريطة</a>
+                        <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="text-white text-decoration-none fs-5">اضغط لرؤية الموقع على الخريطة</a>
                     </div>
                 </div>
             </div>
