@@ -88,6 +88,9 @@
                 <!-- Category A -->
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
+
+                    <!-- في ملف index.html -->
+            <a href="index2.html">الذهاب إلى الصفحة الثانية</a>
                         <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=500" class="card-img-top" alt="الدراجات النارية">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">صنف (A) - الدراجات النارية</h5>
