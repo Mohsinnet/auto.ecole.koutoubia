@@ -13,6 +13,10 @@
             --card-shadow: 0 4px 15px rgba(0,0,0,0.08);
         }
 
+<!-- في ملف index2.html -->
+<h1>مرحباً بك في الصفحة الثانية</h1>
+<a href="index.html">العودة إلى الصفحة الرئيسية</a>
+
         * {
             box-sizing: border-box;
             margin: 0;
