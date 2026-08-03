@@ -79,7 +79,7 @@
             </div>
         </div>
 </section>
- class="py-5 bg-light">
+ 
   <div class="container">
     <h2 class="text-center mb-4">منهجيتنا في التكوين: لماذا تختار مؤسسة الكتبية؟</h2>
     <div class="row g-4">
