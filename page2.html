@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أصناف رخص السياقة بالمغرب</title>
+  <!-- خط تجوال من Google Fonts للأناقة -->
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- أيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+    /* التنسيقات العامة */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background-color: #f4f7f6;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* الهيدر والعنوان الرئيسي */
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* زر العودة للصفحة الرئيسية */
+    .nav-container {
+      max-width: 1200px;
+      margin: 20px auto 0;
+      padding: 0 20px;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #ffffff;
+      color: #1e3c72;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+    .back-btn:hover {
+      background-color: #1e3c72;
+      color: #fff;
+      transform: translateY(-2px);
+    }
+
+    /* شبكة الأصناف */
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    /* تصميم البطاقة */
+    .card {
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      border-top: 5px solid #1e3c72;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    /* تفاصيل داخل البطاقة */
+    .card-icon {
+      font-size: 2.5rem;
+      color: #1e3c72;
+      margin-bottom: 15px;
+    }
+    .card-badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #eef2f5;
+      color: #1e3c72;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+    .card p {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 15px;
+    }
+    .card-details {
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    /* الفوتر (أسفل الصفحة) */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      background-color: #eef2f5;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- هيدر الصفحة -->
+  <header>
+    <h1>دليل رخص السياقة بالمغرب</h1>
+    <p>تعرف على جميع الأصناف والأنواع المعتمدة حسب القوانين المغربية</p>
+  </header>
+
+  <!-- زر الرجوع -->
+  <div class="nav-container">
+    <a href="index.html" class="back-btn">
+      <i class="fa-solid font-awesome-icon fa-arrow-right"></i> العودة للصفحة الرئيسية
+    </a>
+  </div>
+
+  <!-- محتوى البطاقات -->
+  <div class="container">
+    <div class="cards-grid">
+
+      <!-- صنف A -->
+      <div class="card">
+        <div class="card-badge">الدراجات</div>
+        <div class="card-icon"><i class="fa-solid fa-motorcycle"></i></div>
+        <h3>الصنف A / A1</h3>
+        <p>مخصص للدراجات النارية بمختلف أنواعها وأحجامها (A1 للدراجات خفيفة الوزن، وA للدراجات كبيرة الحجم).</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 16 سنة لـ A1 / 18 سنة لـ A</div>
+      </div>
+
+      <!-- صنف B -->
+      <div class="card" style="border-top-color: #27ae60;">
+        <div class="card-badge">السيارات</div>
+        <div class="card-icon" style="color: #27ae60;"><i class="fa-solid fa-car"></i></div>
+        <h3>الصنف B</h3>
+        <p>الرخصة الأكثر شيوعاً. خاصة بالسيارات الخفيفة ونقل الأشخاص (لا تتجاوز 9 مقاعد مع السائق) أو نقل البضائع (وزنها لا يتجاوز 3.5 тон).</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 18 سنة</div>
+      </div>
+
+      <!-- صنف C -->
+      <div class="card" style="border-top-color: #e67e22;">
+        <div class="card-badge">الشاحنات</div>
+        <div class="card-icon" style="color: #e67e22;"><i class="fa-solid fa-truck"></i></div>
+        <h3>الصنف C</h3>
+        <p>مخصص لشاحنات نقل البضائع التي يتجاوز وزنها الإجمالي مع الحولة 3500 كيلوغرام.</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 21 سنة (يتطلب B)</div>
+      </div>
+
+      <!-- صنف D -->
+      <div class="card" style="border-top-color: #8e44ad;">
+        <div class="card-badge">الحافلات</div>
+        <div class="card-icon" style="color: #8e44ad;"><i class="fa-solid fa-bus"></i></div>
+        <h3>الصنف D</h3>
+        <p>خاص بحافلات نقل الأشخاص التي يتجاوز عدد مقاعدها 9 مقاعد بخلاف المقعد المخصص للسائق.</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 21 سنة (يتطلب B)</div>
+      </div>
+
+      <!-- صنف EB / EC / ED -->
+      <div class="card" style="border-top-color: #c0392b;">
+        <div class="card-badge">الرموك / المقطورات</div>
+        <div class="card-icon" style="color: #c0392b;"><i class="fa-solid fa-truck-ramp-box"></i></div>
+        <h3>الصنف E (EB / EC / ED)</h3>
+        <p>يرخص لجر مقطورة يتجاوز وزنها الإجمالي 750 كجم، ويكون ملحقاً بالأصناف الأساسية (B أو C أو D).</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> يعتمد على الصنف الأصلي</div>
+      </div>
+
+      <!-- صنف AM -->
+      <div class="card" style="border-top-color: #16a085;">
+        <div class="card-badge">الدراجات الخفيفة</div>
+        <div class="card-icon" style="color: #16a085;"><i class="fa-solid fa-moped"></i></div>
+        <h3>الصنف AM</h3>
+        <p>خاص بقدماء الدراجات الخفيفة بمحرك (سعة المحرك أقل من 50 سم مكعب).</p>
+        <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 14 سنة</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; مؤسسة
+         التعليم السياقة الكتبية</p>
+  </footer>
+
+</body>
+</html>
