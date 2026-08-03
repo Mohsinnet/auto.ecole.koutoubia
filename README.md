@@ -114,37 +114,7 @@
                             <h5 class="card-title fw-bold">صنف (C / D / EC) - الوزن الثقيل الحافلات</h5>
                             <p class="card-text text-muted">تأهيل احترافي لسياقة شاحنات النقل والحافلات تحت إشراف مدربين مؤهلين بكفاءة عالية.</p>
                         </div>
-                    </div>
-<section class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-4">منهجيتنا في التكوين: لماذا تختار مؤسسة الكتبية؟</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-book"></i></div>
-          <h4>تأطير نظري محين</h4>
-          <p>شرح مبسط وشامل لقواعد السير، الإشارات الطرقية، والمفاهيم الميكانيكية الأساسية مع مواكبة أحدث التغييرات في بنك الأسئلة.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-speedometer2"></i></div>
-          <h4>تدريب تطبيقي آمن</h4>
-          <p>تعليم القيادة الميدانية في مختلف ظروف السير (المدارية، الطرق السريعة، المناورات) لبناء ثقة المتدرب وتجاوز الخوف.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-person-check"></i></div>
-          <h4>متابعة وتأطير فردي</h4>
-          <p>مرافقة كل طالب خطوة بخطوة وإجراء اختبارات تجريبية قبل الامتحان الرسمي لضمان الجاهزية بنسبة 100%.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-                    
+                    </div>      
                 </div>
             </div>
         </div>
