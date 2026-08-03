@@ -107,9 +107,6 @@
     </div>
   </div>
 </section>
-        
-    </section>
-
     <!-- Categories Section -->
     <section class="py-5 bg-light">
         <div class="container">
