@@ -51,9 +51,9 @@
             <p class="lead mb-4">طريقك الأمان يبدأ من هنا. نرافقك خطوة بخطوة للحصول على رخصة السياقة بكل ثقة واحترافية.</p>
             <a href="tel:0612160626" class="btn btn-warning btn-lg me-2 text-dark fw-bold"><i class="fa-solid fa-phone"></i> 0612160626</a>
             <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريطة</a>
-             <a href="https://www.youtube.com/@utokoutoubia" target="_blank" class="btn btn-outline-light btn-lg">
-  <i class="fa-brands fa-youtube me-1"></i> قناتنا على يوتيوب
-</a>
+            <a href="https://www.youtube.com/@utokoutoubia" target="_blank" class="btn btn-outline-light btn-lg">
+               <i class="fa-brands fa-youtube me-1"></i> قناتنا على يوتيوب
+            </a>
         </div>
     </section>
 
@@ -64,13 +64,13 @@
                 <div class="col-md-6">
                     <h2 class="fw-bold mb-3 text-primary">أهمية تعلم السياقة في حياتك</h2>
                     <p class="fs-5 text-muted">
-                        لم تعد السياقة مجرد رفاهية، بل أصبحت **ضرورة أساسية** في الحياة اليومية والتطور المهني:
+                        لم تعد السياقة مجرد رفاهية، بل أصبحت <strong>ضرورة أساسية</strong> في الحياة اليومية والتطور المهني:
                     </p>
                     <ul class="list-unstyled fs-6">
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الاستقلالية وحرية التنقل:</strong> توفير الوقت والجهد وتجنب انتظار وسائل النقل العمومية.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>فرص عمل أفضل:</strong> تفتح لك رخصة السياقة أبواباً واسعة في سوق الشغل بمختلف القطاعات.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الأمان والسلامة:</strong> تعلم قواعد المرور والسياقة السليمة يحميك ويحمي عائلتك ومستعملي الطريق.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>هدفنا:</strong> هدفنا هو أن نجعل من كل متعلم سائقًا مسؤولًا.</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الاستقلالية وحرية التنقل:</strong> توفير الوقت والجهد في التنقل</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>فرص عمل أفضل:</strong> تفتح لك رخصة السياقة أبواباً وظيفية جديدة</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الأمان والسلامة:</strong> تعلم قواعد المرور والسياقة الآمنة</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>هدفنا:</strong> هدفنا هو أن نجعل من كل متعلم سائقًا محترفاً وآمناً</li>
                     </ul>
                 </div>
                 <div class="col-md-6 text-center">
@@ -78,35 +78,37 @@
                 </div>
             </div>
         </div>
-</section>
- 
-  <div class="container">
-    <h2 class="text-center mb-4">منهجيتنا في التكوين: لماذا تختار مؤسسة الكتبية؟</h2>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-book"></i></div>
-          <h4>تأطير نظري محين</h4>
-          <p>شرح مبسط وشامل لقواعد السير، الإشارات الطرقية، والمفاهيم الميكانيكية الأساسية مع مواكبة أحدث التغييرات في بنك الأسئلة.</p>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">منهجيتنا في التكوين: لماذا تختار مؤسسة الكتبية؟</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3 text-center">
+              <div class="fs-1 text-primary mb-2"><i class="fa-solid fa-book"></i></div>
+              <h4>تأطير نظري محين</h4>
+              <p>شرح مبسط وشامل لقواعد السير، الإشارات الطرقية، والمفاهيم الميكانيكية الأساسية</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3 text-center">
+              <div class="fs-1 text-primary mb-2"><i class="fa-solid fa-gauge-high"></i></div>
+              <h4>تدريب تطبيقي آمن</h4>
+              <p>تعليم القيادة الميدانية في مختلف ظروف السير لبناء ثقة المتدرب</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm p-3 text-center">
+              <div class="fs-1 text-primary mb-2"><i class="fa-solid fa-user-check"></i></div>
+              <h4>متابعة وتأطير فردي</h4>
+              <p>مرافقة كل طالب خطوة بخطوة وإجراء اختبارات تجريبية قبل الامتحان الرسمي</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-speedometer2"></i></div>
-          <h4>تدريب تطبيقي آمن</h4>
-          <p>تعليم القيادة الميدانية في مختلف ظروف السير (المدارية، الطرق السريعة، المناورات) لبناء ثقة المتدرب وتجاوز الخوف.</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 border-0 shadow-sm p-3 text-center">
-          <div class="fs-1 text-primary mb-2"><i class="bi bi-person-check"></i></div>
-          <h4>متابعة وتأطير فردي</h4>
-          <p>مرافقة كل طالب خطوة بخطوة وإجراء اختبارات تجريبية قبل الامتحان الرسمي لضمان الجاهزية بنسبة 100%.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+
     <!-- Categories Section -->
     <section class="py-5 bg-light">
         <div class="container">
@@ -115,11 +117,10 @@
                 <!-- Category A -->
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0">
-
                         <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?q=80&w=500" class="card-img-top" alt="الدراجات النارية">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">صنف (A) - الدراجات النارية</h5>
-                            <p class="card-text text-muted">تدريب متكامل على سياقة الدراجات النارية بمختلف أحجامها مع التركيز على توازن وثبات السائق.</p>
+                            <p class="card-text text-muted">تدريب متكامل على سياقة الدراجات النارية بمختلف أحجامها</p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +130,7 @@
                         <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=500" class="card-img-top" alt="السيارات الخفيفة">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">صنف (B) - السيارات الخفيفة</h5>
-                            <p class="card-text text-muted">إعداد شامل لنيل رخصة سياقة سيارات الوزن الخفيف، بما في ذلك الدروس النظرية والتطبيقية.</p>
+                            <p class="card-text text-muted">إعداد شامل لنيل رخصة سياقة سيارات الوزن الخفيف</p>
                         </div>
                     </div>
                 </div>
@@ -139,37 +140,43 @@
                         <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=500" class="card-img-top" alt="الوزن الثقيل">
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">صنف (C / D / EC) - الوزن الثقيل الحافلات</h5>
-                            <p class="card-text text-muted">تأهيل احترافي لسياقة شاحنات النقل والحافلات تحت إشراف مدربين مؤهلين بكفاءة عالية.</p>
+                            <p class="card-text text-muted">تأهيل احترافي لسياقة شاحنات النقل والحافلات</p>
                         </div>
                     </div>      
                 </div>
             </div>
         </div>
-            <div class="row justify-content-center g-3">
+            <div class="row justify-content-center g-3 mt-5">
                 <div class="col-md-4">
                     <div class="p-3 bg-secondary rounded">
                         <i class="fa-solid fa-phone fs-2 text-warning mb-2"></i>
-                        <h5>الهاتف</h5>
+                        <h5 class="text-white">الهاتف</h5>
                         <a href="tel:0612160626" class="text-white text-decoration-none fs-5 dir-ltr d-block">0612160626</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-3 bg-secondary rounded">
                         <i class="fa-brands fa-whatsapp fs-2 text-success mb-2"></i>
-                        <h5>الواتساب</h5>
+                        <h5 class="text-white">الواتساب</h5>
                         <a href="https://wa.me/212612160626" target="_blank" class="text-white text-decoration-none fs-5">مراسلة مباشرة عبر الواتساب</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-3 bg-secondary rounded">
                         <i class="fa-solid fa-map-location-dot fs-2 text-info mb-2"></i>
-                        <h5>العنوان</h5>
+                        <h5 class="text-white">العنوان</h5>
                         <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="text-white text-decoration-none fs-5">اضغط لرؤية الموقع على الخريطة</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Visitor Counter Section -->
+    <div class="text-center py-4 bg-dark text-white">
+        <p class="mb-0 fs-5"><strong>عدد الزوار:</strong></p>
+        <img src="https://visitor-badge.glitch.me/badge?page_id=Mohsinnet.auto.ecole.koutoubia" alt="عداد الزوار">
+    </div>
 
     <!-- Footer -->
     <footer class="bg-black text-white text-center py-3">
