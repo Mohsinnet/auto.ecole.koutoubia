@@ -35,7 +35,12 @@
         .visitor-widget::before{ content:''; position:absolute; inset:0; pointer-events:none; }
         .visitor-widget .counter{ text-shadow:0 0 12px rgba(59,130,246,0.12); color:#fff; }
         @keyframes pulse { 0%{ transform:scale(1); opacity:0.9 } 100%{ transform:scale(3); opacity:0 } }
-        .visitor-widget .pulse-dot::after{ content:''; position:absolute; inset:0; border-radius:50%; background:#22c55e; animation:pulse 1.8s infinite ease-in-out; }
+        .visitor-widget .pulse-dot::after{ content:''; position:absolute; inset:0; border-radius:50%; background:#22c55e; animation:pulse 1.8s infinite ease-in-out; pointer-events:none; }
+
+        /* respect user motion preferences */
+        @media (prefers-reduced-motion: reduce) {
+          .visitor-widget .pulse-dot::after { animation: none !important; }
+        }
     </style>
 </head>
 <body>
@@ -79,7 +84,7 @@
             <h1 class="display-4 fw-bold mb-3">مرحباً بكم في مؤسسة الكتبية لتعليم السياقة</h1>
             <p class="lead mb-4">طريقك الأمان يبدأ من هنا. نرافقك خطوة بخطوة للحصول على رخصة السياقة بكل ثقة واحترافية.</p>
             <a href="tel:0612160626" class="btn btn-warning btn-lg me-2 text-dark fw-bold"><i class="fa-solid fa-phone"></i> 0612160626</a>
-            <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريطة</a>
+            <a href="https://maps.app.goo.gl/3cbD1uLNynhpyvvp7" target="_blank" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-location-dot me-1"></i> موقعنا على الخريط�[...]
             <a href="https://www.youtube.com/@utokoutoubia" target="_blank" class="btn btn-outline-light btn-lg">
   <i class="fa-brands fa-youtube me-1"></i> قناتنا على يوتيوب
 </a>
@@ -88,12 +93,12 @@
 <div class="container mt-4">
   <div class="d-flex justify-content-center">
     <div class="visitor-widget card p-3 text-center border-0 shadow" style="max-width:360px; position: relative;">
-      <div class="icon-box mb-2" aria-hidden="true" style="width:56px;height:56px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:rgba(59,130,246,0.12);color:#60a5fa;font-size:22px;border:1px solid rgba(96,165,250,0.18);">
+      <div class="icon-box mb-2" aria-hidden="true" style="width:56px;height:56px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:rgba(59,130,246,0.12);c[...]
         <i class="fa-solid fa-users"></i>
       </div>
       <div class="title text-muted mb-1" style="font-weight:600;">إجمالي زيارات الموقع</div>
       <div class="counter display-6 fw-bold" id="visitorCount" style="direction:ltr;letter-spacing:0.6px;">0</div>
-      <div class="live-status d-inline-flex align-items-center mt-2 px-3 py-1 rounded-pill" role="status" aria-live="polite" style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.12);color:#86efac;font-size:.9rem;">
+      <div class="live-status d-inline-flex align-items-center mt-2 px-3 py-1 rounded-pill" role="status" aria-live="polite" aria-atomic="true" style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.12);color:#86efac;font-size:.9rem;">
         <span class="pulse-dot me-2" aria-hidden="true" style="width:8px;height:8px;border-radius:50%;background:#22c55e;position:relative;display:inline-block;"></span>
         <span>الموقع يعمل الآن بنشاط</span>
       </div>
@@ -115,14 +120,14 @@
                         لم تعد السياقة مجرد رفاهية، بل أصبحت **ضرورة أساسية** في الحياة اليومية والتطور المهني:
                     </p>
                     <ul class="list-unstyled fs-6">
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الاستقلالية وحرية التنقل:</strong> توفير الوقت والجهد وتحسين جودة الحياة.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>فرص عمل أفضل:</strong> تفتح لك رخصة السياقة أبواباً وفرصاً مهنية أوسع.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الأمان والسلامة:</strong> تعلم قواعد المرور والسلوك الوقائي يقلل حدوث الحوادث.</li>
-                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>هدفنا:</strong> هدفنا هو أن نجعل من كل متعلم سائقًا ماهرًا وواثقًا.</li>
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الاستقلالية وحرية التنقل:</strong> توفير الوقت والج[...]
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>فرص عمل أفضل:</strong> تفتح لك رخصة السياقة أبواباً �[...]
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>الأمان والسلامة:</strong> تعلم قواعد المرور والسلوك[...]
+                        <li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i> <strong>هدفنا:</strong> هدفنا هو أن نجعل من كل متعلم سائقًا م[...]
                     </ul>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOTlkA_5L27l-dgveiinZrLUP9uYaE7u44CL_y-p1r2UFPtJbRUf_ek7g&s=10" alt="تعلم السياقة" class="img-fluid rounded-3 shadow-sm" style="max-height:320px;object-fit:cover;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOTlkA_5L27l-dgveiinZrLUP9uYaE7u44CL_y-p1r2UFPtJbRUf_ek7g&s=10" alt="تعلم السياقة" class="img-fluid [...]
                 </div>
             </div>
         </div>
@@ -134,14 +139,14 @@
         <div class="card h-100 border-0 shadow-sm p-3 text-center">
           <div class="fs-1 text-primary mb-2"><i class="bi bi-book"></i></div>
           <h4>تأطير نظري محين</h4>
-          <p>شرح مبسط وشامل لقواعد السير، الإشارات الطرقية، والمفاهيم الميكانيكية الأساسية مع مواكبة أحدث التغطيات.</p>
+          <p>شرح مبسط وشامل لقواعد السير، الإشارات الطرقية، والمفاهيم الميكانيكية الأساسية مع مواكبة أحدث التغ�[...]
         </div>
       </div>
       <div class="col-md-4">
         <div class="card h-100 border-0 shadow-sm p-3 text-center">
           <div class="fs-1 text-primary mb-2"><i class="bi bi-speedometer2"></i></div>
           <h4>تدريب تطبيقي آمن</h4>
-          <p>تعليم القيادة الميدانية في مختلف ظروف السير (المدارية، الطرق السريعة، المناورات) لبناء ثقة المتدرب.</p>
+          <p>تعليم القيادة الميدانية في مختلف ظروف السير (المدارية، الطرق السريعة، المناورات) لبناء ثقة المتدرب.[...]
         </div>
       </div>
       <div class="col-md-4">
@@ -202,7 +207,10 @@
     <script>
 (function(){
   const STORAGE_KEY = 'site_page_views';
+  const LAST_INC_KEY = 'site_last_inc'; // YYYY-MM-DD
   const INITIAL_COUNT = 1250;
+
+  function todayISO(){ return new Date().toISOString().slice(0,10); }
 
   function animateValue(element, start, end, duration){
     let startTS = null;
@@ -210,7 +218,7 @@
       if(!startTS) startTS = ts;
       const progress = Math.min((ts - startTS) / duration, 1);
       const current = Math.floor(progress * (end - start) + start);
-      element.textContent = current.toLocaleString('en-US');
+      element.textContent = current.toLocaleString(navigator.language || 'ar');
       if(progress < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
@@ -218,16 +226,27 @@
 
   function updateVisitorCount(){
     try{
-      let current = parseInt(localStorage.getItem(STORAGE_KEY), 10);
-      if(!Number.isFinite(current)) current = INITIAL_COUNT;
-      current = current + 1;
-      localStorage.setItem(STORAGE_KEY, current);
+      let stored = parseInt(localStorage.getItem(STORAGE_KEY), 10);
+      if(!Number.isFinite(stored)) stored = INITIAL_COUNT;
+
+      const lastInc = localStorage.getItem(LAST_INC_KEY);
+      const today = todayISO();
+      let newCount = stored;
+      if (lastInc !== today){
+        newCount = stored + 1;
+        localStorage.setItem(STORAGE_KEY, String(newCount));
+        localStorage.setItem(LAST_INC_KEY, today);
+      }
 
       const el = document.getElementById('visitorCount');
-      if(el) animateValue(el, 0, current, 1400);
+      if(el){
+        const from = stored;
+        const to = newCount;
+        animateValue(el, from, to, 1400);
+      }
     }catch(e){
       const el = document.getElementById('visitorCount');
-      if(el) el.textContent = INITIAL_COUNT.toLocaleString('en-US');
+      if(el) el.textContent = INITIAL_COUNT.toLocaleString(navigator.language || 'ar');
     }
   }
 
