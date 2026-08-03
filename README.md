@@ -118,14 +118,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Contact & Location Section -->
-    <section class="py-5 bg-dark text-white text-center">
-        <div class="container">
-            <h2 class="fw-bold mb-4">تواصل معنا اليوم وابدأ رحلتك!</h2>
-            <p class="fs-5 mb-4">فريقنا يسعد باستقبالكم وتأطيركم للحصول على رخصتكم في أسرع وقت.</p>
-            
             <div class="row justify-content-center g-3">
                 <div class="col-md-4">
                     <div class="p-3 bg-secondary rounded">
