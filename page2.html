@@ -43,6 +43,89 @@
       opacity: 0.9;
     }
 
+    /* العبارة المتحركة */
+    .animated-banner {
+      background: linear-gradient(90deg, #27ae60, #2ecc71, #27ae60);
+      padding: 20px;
+      margin: 25px auto;
+      max-width: 1200px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(39, 174, 96, 0.3);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .animated-banner::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      animation: shimmer 2s infinite;
+    }
+
+    @keyframes shimmer {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+
+    .banner-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      position: relative;
+      z-index: 1;
+      animation: slideFromLeft 1.2s ease-out;
+    }
+
+    @keyframes slideFromLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .banner-icon {
+      font-size: 2.5rem;
+      color: white;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .banner-text {
+      color: white;
+      font-size: 1.3rem;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+      letter-spacing: 1px;
+    }
+
+    .banner-text .highlight {
+      font-size: 1.5rem;
+      display: block;
+      margin: 5px 0;
+    }
+
     /* زر العودة للصفحة الرئيسية */
     .nav-container {
       max-width: 1200px;
@@ -138,6 +221,22 @@
       background-color: #eef2f5;
       color: #666;
     }
+
+    /* تجاوب على الأجهزة الصغيرة */
+    @media (max-width: 768px) {
+      .banner-text {
+        font-size: 1rem;
+      }
+      .banner-text .highlight {
+        font-size: 1.1rem;
+      }
+      .banner-content {
+        gap: 10px;
+      }
+      .banner-icon {
+        font-size: 2rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -147,6 +246,19 @@
     <h1>دليل رخص السياقة بالمغرب</h1>
     <p>تعرف على جميع الأصناف والأنواع المعتمدة حسب القوانين المغربية</p>
   </header>
+
+  <!-- العبارة المتحركة الترحيبية -->
+  <div class="animated-banner">
+    <div class="banner-content">
+      <div class="banner-icon">
+        <i class="fa-solid fa-car"></i>
+      </div>
+      <div class="banner-text">
+        <span>سيارة التعليم الكتبية ترحب بكم</span>
+        <span class="highlight">🌟 نتمنى لكم النجاح 🌟</span>
+      </div>
+    </div>
+  </div>
 
   <!-- زر الرجوع -->
   <div class="nav-container">
@@ -173,7 +285,7 @@
         <div class="card-badge">السيارات</div>
         <div class="card-icon" style="color: #27ae60;"><i class="fa-solid fa-car"></i></div>
         <h3>الصنف B</h3>
-        <p>الرخصة الأكثر شيوعاً. خاصة بالسيارات الخفيفة ونقل الأشخاص (لا تتجاوز 9 مقاعد مع السائق) أو نقل البضائع (وزنها لا يتجاوز 3.5 тон).</p>
+        <p>الرخصة الأكثر شيوعاً. خاصة بالسيارات الخفيفة ونقل الأشخاص (لا تتجاوز 9 مقاعد مع السائق) أو نقل البضائع (و[...]</p>
         <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 18 سنة</div>
       </div>
 
