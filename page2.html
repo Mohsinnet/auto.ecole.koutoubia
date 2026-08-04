@@ -284,6 +284,43 @@
       border-radius: 15px;
     }
 
+    /* Thumbnail fallback for videos that disallow embedding */
+    .yt-thumb {
+      position: relative;
+      max-width: 900px;
+      margin: 0 auto 30px;
+      border-radius: 15px;
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    }
+    .yt-thumb img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .yt-play-btn {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: none;
+    }
+    .yt-play-btn .btn {
+      pointer-events: auto;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .yt-play-btn .btn i { margin-left:8px; }
+
     .video-benefits {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -465,7 +502,7 @@
         <div class="card-badge">السيارات</div>
         <div class="card-icon" style="color: #27ae60;"><i class="fa-solid fa-car"></i></div>
         <h3>الصنف B</h3>
-        <p>الرخصة الأكثر شيوعاً. خاصة بالسيارات الخفيفة ونقل الأشخاص (لا تتجاوز 9 مقاعد مع السائق) أو نقل البضائع.</p>
+        <p>الرخصة الأكثر شيوعاً. خاصة بالسيارات الخفيفة ونقل الأشخاص (لا تتجاوز 9 مقاعد مع السائق) أو نقل البضائع[...]
         <div class="card-details"><i class="fa-regular fa-clock"></i> السن الأدنى: 18 سنة</div>
       </div>
 
@@ -511,16 +548,16 @@
   <!-- قسم الفيديو -->
   <div class="video-section">
     <h2>🎬 أهمية السياقة الآمنة والمسؤولة</h2>
-    <p>تعرف على الفوائد الشخصية والاجتماعية للسياقة الآمنة، وكيف تساهم مؤسسة التعليم السياقة الكتبية في بناء سا[...]
+    <p>تعرف على الفوائد الشخصية والاجتماعية للسياقة الآمنة، وكيف تساهم مؤسسة التعليم السياقة الكتبية في بناء[...]
     
-    <div class="video-wrapper">
-      <!-- تم استبدال مشغل الفيديو برابط تضمين YouTube الصحيح -->
-      <iframe 
-        title="أهمية السياقة الآمنة"
-        src="https://www.youtube-nocookie.com/embed/cLvDzhERJeU" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-      </iframe>
+    <!-- Thumbnail fallback: opens YouTube in a new tab when embedding is disabled -->
+    <div class="yt-thumb" role="button" aria-label="افتح الفيديو على يوتيوب">
+      <img src="https://img.youtube.com/vi/cLvDzhERJeU/mqdefault.jpg" alt="صورة الفيديو — اضغط لتشغيل الفيديو على يوتيوب">
+      <div class="yt-play-btn">
+        <a class="btn" href="https://www.youtube.com/watch?v=cLvDzhERJeU" target="_blank" rel="noopener noreferrer" aria-label="فتح الفيديو في يوتيوب">
+          <i class="fa-solid fa-play"></i> مشاهدة على يوتيوب
+        </a>
+      </div>
     </div>
 
     <!-- فوائد السياقة الآمنة -->
@@ -554,7 +591,7 @@
     <div class="institution-highlight">
       <h3>🎓 دور مؤسسة التعليم السياقة الكتبية</h3>
       <p>
-        نحن ملتزمون بتعليم وتدريب أجيال من السائقين المسؤولين والآمنين. من خلال برامجنا المتخصصة والمدربين المؤ�[...]
+        نحن ملتزمون بتعليم وتدريب أجيال من السائقين المسؤولين والآمنين. من خلال برامجنا المتخصصة والمدربين ال[...] 
         نعمل على تعزيز ثقافة السياقة الآمنة وبناء مجتمع طرقي أكثر أماناً. 
         مؤسستنا تؤمن بأن التعليم الجيد هو الخطوة الأولى نحو طرق أكثر أماناً لكل أفراد المجتمع.
       </p>
