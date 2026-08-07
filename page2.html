@@ -253,6 +253,31 @@
       margin-right: auto;
     }
 
+    /* Responsive video wrapper (يتلائم مع عرض الصفحة) */
+    .responsive-video {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+      margin: 20px auto 30px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+    .responsive-video::after {
+      content: '';
+      display: block;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    }
+    .responsive-video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 15px;
+    }
+
     /* صورة الترويج الجديدة */
     .promo-banner {
       position: relative;
@@ -408,7 +433,7 @@
       border-radius: 15px;
       box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
       transition: transform 0.3s ease;
-      display: none;
+      display: none; /* keep as fallback/hidden */
     }
 
     .video-wrapper:hover {
@@ -715,15 +740,18 @@
 
     </div>
   </div>
-<iframe
-  src="https://player.cloudinary.com/embed/?cloud_name=azp0ikkv&public_id=vid_auto_Ecolekoutoubia_pfobxy"
-  width="640"
-  height="360" 
-  style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
-  allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-  allowfullscreen
-  frameborder="0"
-></iframe>
+
+  <!-- responsive embedded video (يتلائم مع عرض الصفحة) -->
+  <div class="responsive-video">
+    <iframe
+      src="https://player.cloudinary.com/embed/?cloud_name=azp0ikkv&public_id=vid_auto_Ecolekoutoubia_pfobxy"
+      allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+      allowfullscreen
+      frameborder="0"
+      title="فيديو المؤسسة"
+    ></iframe>
+  </div>
+
   <!-- قسم الفيديو والترويج -->
   <div class="video-section">
     <h2>🎬 أهمية السياقة الآمنة والمسؤولة</h2>
@@ -750,7 +778,7 @@
         <div class="promo-divider"></div>
         <div class="promo-main-text">
           سيارة التعليم الكتبية ترحب بكم
-          <span class="accent">شاهدنا على قناتنا في اليوتيوب</span>
+          <span class="accent">شاهدنا على قناتنا في الي��تيوب</span>
         </div>
         <a href="https://www.youtube.com/@utokoutoubia" target="_blank" rel="noopener noreferrer" class="promo-youtube-link">
           <i class="fa-brands fa-youtube"></i>
